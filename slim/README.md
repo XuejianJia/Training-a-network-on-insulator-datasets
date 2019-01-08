@@ -1,5 +1,6 @@
 # 在自己的数据集上使用slim进行神经网络训练
 在进行以下操作之前，请确保您已经将slim安装到了您的设备上。安装详情见[main TF-Slim page](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/slim).
+在ResNet_V2_50和ResNet_V2_101上的训练过程及代码见[insulator_classification_resnet_v2_50.ipynb](https://github.com/XuejianJia/Training-a-network-on-insulator-datasets/blob/master/slim/insulator_classification_resnet_v2_50.ipynb) [insulator_classification_resnet_v2_101.ipynb](https://github.com/XuejianJia/Training-a-network-on-insulator-datasets/blob/master/slim/insulator_classification_resnet_v2_101.ipynb)
 
 
 ----------
