@@ -257,7 +257,7 @@
     
     	# Create the model, use the default arg scope to configure the batch norm parameters.
     	with slim.arg_scope(inception.inception_v1_arg_scope()):
-        	logits, _ = inception.inception_v1(images, num_classes=dataset.num_classes, is_training=True)
+        	logits, _ = inception.inception_v1(images, num_classes=dataset.num_classes, is_training=False)
 
     	probabilities = tf.nn.softmax(logits)
     
